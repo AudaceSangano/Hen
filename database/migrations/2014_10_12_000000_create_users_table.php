@@ -39,7 +39,7 @@ return new class extends Migration
             'province_id'=>1,
             'district_id'=>101,
             'sector_id'=>10101,
-            'password' => '$2y$10$EDxE9OA6O0KzOpeqV0npw.mMhidqKrdCDODFgpheUMf9VbFO762zW',  //test@123
+            'password' => '$2y$10$cMwiGWh5vZ4F/UJ7MyyzCu19f9YK9qKbTLCAGH07pEJtdXyE0APx2',  //test@123
             'role_id' => 1,
         ]);
 
@@ -50,7 +50,7 @@ return new class extends Migration
             'province_id'=>1,
             'district_id'=>101,
             'sector_id'=>10101,
-            'password' => '$2y$10$EDxE9OA6O0KzOpeqV0npw.mMhidqKrdCDODFgpheUMf9VbFO762zW',  //test@123
+            'password' => '$2y$10$cMwiGWh5vZ4F/UJ7MyyzCu19f9YK9qKbTLCAGH07pEJtdXyE0APx2',  //test@123
             'role_id' => 2,
         ]);
 
@@ -61,7 +61,7 @@ return new class extends Migration
             'province_id'=>1,
             'district_id'=>101,
             'sector_id'=>10101,
-            'password' => '$2y$10$EDxE9OA6O0KzOpeqV0npw.mMhidqKrdCDODFgpheUMf9VbFO762zW',  //test@123
+            'password' => '$2y$10$cMwiGWh5vZ4F/UJ7MyyzCu19f9YK9qKbTLCAGH07pEJtdXyE0APx2',  //test@123
             'role_id' => 3,
         ]);
     }
