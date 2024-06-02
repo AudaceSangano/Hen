@@ -1,0 +1,42 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('categories', function (Blueprint $table) {
+            $table->id('category_id');
+            $table->string('cat_name');
+            $table->timestamps();
+        });
+
+        App\Models\Category::create([
+            'cat_name' => "egg",
+        ]);
+        App\Models\Category::create([
+            'cat_name' => "meat-chicken",
+        ]);
+        App\Models\Category::create([
+            'cat_name' => "imishwi",
+        ]);
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('categories');
+    }
+};
